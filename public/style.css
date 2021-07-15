@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #222222;
+}
+
+.box-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 700px;
+}
+
+.box-wrapper .box-1 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+  background-color: #bb3030;
+}
+
+.box-wrapper .box-1:hover {
+  background-color: #8f2727;
+}
+
+.box-wrapper .box-2 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+  background-color: #6a158b;
+}
+
+.box-wrapper .box-2:hover {
+  background-color: #510f6b;
+}
+
+.box-wrapper .box-3 {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+  background-color: #303297;
+}
+
+.box-wrapper .box-3:hover {
+  background-color: #202168;
+}
+/*# sourceMappingURL=style.css.map */
